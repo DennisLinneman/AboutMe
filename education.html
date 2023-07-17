@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #back {
+            position: fixed;
+            padding: 0;
+            margin: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(black, #1a060d, #121020, #141c3a, #324c5c);
+            z-index: -1;
+        }
+        body > h1 {
+            color: white;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <style>
-        .smaller-image {
-          width: 500px;
-        }
-            </style>
+    <div id="back"></div>
+            
     <h1>Education</h1>
     <img class="smaller-image" src="Elder.jpg" alt="Elder High School">
     <h2>Elder High School</h2>
@@ -21,10 +36,12 @@
         <li>Lead school retreat</li>
         <li>Graduation with honors</li>
         <li>Teacher recomendation in computer science</li>
-    </ul>
-    <img class="smaller-image" src="NKU-lake.jpg" alt="Norther Kentucky Universities campus">
-    <br>
+    </ul>    
     <img class="smaller-image" src="NKU.webp" alt="NKU logo">
+    <br>
+    <img class="smaller-image" src="NKU-lake.jpg" alt="Norther Kentucky Universities campus">
+    
+
     <h2>Northern Kentucky University</h2>
     <br>
     <h2>Areas of Study</h2>

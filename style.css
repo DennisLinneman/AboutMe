@@ -1,0 +1,53 @@
+<style>
+
+ h1 {
+    font-size:28px;
+    color: white;
+  }
+  h2 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Garamond';
+  }
+  h3 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Garamond';
+  }
+  p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Garamond';
+  }
+  li {
+    font-size: 20px;
+    color: white;
+    font-family: 'Garamond';
+  }
+ a {
+    font-size: 20px;
+    color: white;
+    font-family: 'Garamond';
+  }
+  header {
+    background-color: #CCCCCC;
+    padding: 10px 20px;
+  }
+
+  nav a {
+    color: black;
+    margin-right: 20px;
+  }
+  header {
+    margin-bottom: 20px; 
+  }
+  
+  img {
+    margin-top: 20px; 
+    border: 20px solid #CCCCCC;
+  }
+  .smaller-image {
+    width: 500px;
+  }
+  
+</style>
