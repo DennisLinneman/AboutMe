@@ -49,5 +49,43 @@
   .smaller-image {
     width: 500px;
   }
+
+  @media (max-width: 768px) {
+    
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 18px;
+      justify-content: center;
+    }
+  
+    h3 {
+      font-size: 32px;
+    }
+  
+    p, li, a {
+      font-size: 16px;
+    }
+  
+    header {
+      padding: 5px 10px;
+    }
+  
+    nav a {
+      margin-right: 10px;
+    }
+  
+    img {
+      margin-top: 10px;
+      border: 10px solid #CCCCCC;
+      max-width: 100%;
+    }
+  
+    .smaller-image {
+      width: 100%;
+    }
+  }
   
 </style>
